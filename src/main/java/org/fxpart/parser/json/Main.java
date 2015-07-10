@@ -44,13 +44,9 @@ public class Main {
         //sx = "{\"title\": [{\"row\": 1}, {\"row\": 2}]}";
 
         try {
-            Object j;
-            for (int i = 0; i < 1; i++) {
-                j = JSON.parse(sx);
-                System.out.println(" origin : " + i + " = " + sx);
-                System.out.println(" result : " + i + " = " + j.toString());
-
-            }
+            JSON j = JSON.parse(sx);
+            System.out.println(" origin :" + sx);
+            System.out.println(" result :" + j.toString());
         } catch (JSONParsingException ex) {
             System.out.println(ex.getLocalizedMessage());
         }

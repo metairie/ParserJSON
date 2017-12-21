@@ -1,3 +1,3 @@
 # ParserJSON
 
-Simple and fast JSON string converter to an structured Objects hierarchy in Java
+Simple and fast JSON string converter to a structured Objects hierarchy in Java
